@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@font-face {
+  font-family: "akira";
+  src: url("../public/akira_expanded\ \(1\)/Akira-Expanded.otf");
+
+}
+@font-face {
+  font-family: "akira4";
+  src: url("../public/akira_expanded\ \(1\)/AkiraExpanded.woff");
+
+}
+@font-face {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Monument Extended"),
+    url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Monument Extended light";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Monument Extended"),
+    url("https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff")
+      format("woff");
+}
+body {
+  background-color:  linear-gradient(180deg, #1D1D1D 1.49%, #000000 88.55%);
+  padding: 0;
+  margin: 0;
+}
+.bg{
+ background-color:  linear-gradient(180deg, #1D1D1D 1.49%, #000000 88.55%);
+}
